@@ -55,16 +55,20 @@ The p-value of 0.5678 is above the significance level of 0.05. Therefore, the tw
 ### Subsets of Data by Manufacturing Lot 
 For each of three manufacturing lots, one-sample t-test were performed to determined whether the PSI for that lot was statistically different from the population mean of 1,500 PSI. Results are as follows.
 
-Lot 1:
+#### Lot 1
+
 ![screenshot of t-test results for manufacturing lot 1](https://github.com/larabjork/mechacar_statistical_analysis/blob/main/images/t_test_lot_1.png)
 
 The p-value for the Lot 1 t-test was 1.568 x 10<sup>-11</sup>, which is smaller than the significance level of 0.05. Therefore, the means for Lot 1 and the population are statistically different and there is sufficient evidence to reject the null hypothesis.
 
-Lot 2:
+#### Lot 2
+
 ![screenshot of t-test results for manufacturing lot 2](https://github.com/larabjork/mechacar_statistical_analysis/blob/main/images/t_test_lot_2.png)
+
 The p-value for the Lot 2 t-test was 0.0005911, which is smaller than the significance level of 0.05. Therefore, the means for Lot 2 and the population are statistically different and there is sufficient evidence to reject the null hypothesis.
 
-Lot 3:
+#### Lot 3
+
 ![screenshot of t-test results for manufacturing lot 3](https://github.com/larabjork/mechacar_statistical_analysis/blob/main/images/t_test_lot_3.png)
 
 The p-value for the Lot 3 t-test was 0.1589, which is larger than the significance level of 0.05. Therefore, the means for Lot 3 and the population are statistically similar and the null hypothesis is not rejected. 
