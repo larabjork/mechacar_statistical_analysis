@@ -10,7 +10,7 @@ I ran a multiple linear regression model for miles per gallon (mpg) against the 
 
 __Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?__ 
 
-The p-values for vehicle length and ground clearance show that each of these variables has a statistically significant relationship with the dependent variable of mpg. This relationship is indicated by the values in the column headed Pr(>|t|), evaluated against the assumed significance level of 0.05%. The p-values for vehicle length (2.60 x 10^-12^) and ground clearance (5.21 x 10^-8^) are both lower than the significance level.
+The p-values for vehicle length and ground clearance show that each of these variables has a statistically significant relationship with the dependent variable of mpg. This relationship is indicated by the values in the column headed Pr(>|t|), evaluated against the assumed significance level of 0.05%. The p-values for vehicle length (2.60 x 10<sup>-12</sup>) and ground clearance (5.21 x 10^-8^) are both lower than the significance level.
 
 The intercept's p-value (5.08 x 10^-8^) is also lower than the significance level. This means that there are other factors affecting mpg but that are not included in this model.
 
@@ -43,6 +43,6 @@ A one-sample t-test was performed to determine whether the PSI across all manufa
 
 ![screenshot of t-test results for sample of total population, all lots](https://github.com/larabjork/mechacar_statistical_analysis/blob/main/images/t_test_sample_all_data.png)
 
-The p-value of 0.5678 is above the significance level of 0.05, and therefore the two means are statistically similar and the null hypothesis is not rejected. 
+The p-value of 0.5678 is above the significance level of 0.05. Therefore, the two means are statistically similar and the null hypothesis is not rejected. 
 
 ### Subsets of Data by Manufacturing Lot 
