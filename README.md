@@ -69,6 +69,6 @@ The p-value for the Lot 2 t-test was 0.0005911, which is smaller than the signif
 
 #### Lot 3
 
-![screenshot of t-test results for manufacturing lot 3](https://github.com/larabjork/mechacar_statistical_analysis/blob/main/images/t_test_lot_3.png)
+![screenshot of t-test results for manufacturing lot 3](https://github.com/larabjork/mechacar_statistical_analysis/blob/main/images/t_test_lot3.png)
 
 The p-value for the Lot 3 t-test was 0.1589, which is larger than the significance level of 0.05. Therefore, the means for Lot 3 and the population are statistically similar and the null hypothesis is not rejected. 
